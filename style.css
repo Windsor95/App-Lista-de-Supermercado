@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  Verdana, sans-serif;
+  
+}
+
+header {
+  background-color: #2b0be2;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
+
+
+.center{
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+
+}
+
+.lista-cadastro {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 0 20px;
+}
+
+.lista-cadastro input[type='text'] {
+  flex: .5;
+  width: 100%;
+  height: 40px;
+  padding-left: 20px;
+  margin-right: 5px;
+}
+.lista-cadastro input[type='number'] {
+  height: 40px;
+  padding-left: 20px;
+  margin-right: 5px;
+}
+.lista-cadastro input[type='submit']{
+  
+  cursor: pointer;
+  background-color: #2b0be2;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  margin-left: 5px;
+  
+}
+
+.lista{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 740px;
+}
+
+.lista-produtos-single {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+
+.lista-produtos-single h3 {
+  flex: .5;
+  
+}
+
+.preco-produto {
+  text-align: right;
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+.preco-produto span {
+  background-color: #2b0be2;
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.soma-produto {
+  text-align: right;
+  margin: 20px;
+}
+
+button{
+  margin-top: 15px;
+  padding: 5px 10px;
+  background-color: #e91616;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+button:hover{
+  background-color: #ff0202;
+}
