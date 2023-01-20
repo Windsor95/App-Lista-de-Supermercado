@@ -10,7 +10,7 @@ header {
   background-color: #2b0be2;
   text-align: center;
   color: white;
-  padding: 20px 0;
+  padding: 20px 2px;
 }
 
 
@@ -38,6 +38,7 @@ header {
   margin-right: 5px;
 }
 .lista-cadastro input[type='number'] {
+  
   height: 40px;
   padding-left: 20px;
   margin-right: 5px;
@@ -103,4 +104,15 @@ button{
 }
 button:hover{
   background-color: #ff0202;
+}
+
+@media (max-width:600px) {
+
+  .lista-cadastro input[type='number'] {
+  width: 80px;
+  height: 40px;
+  padding-left: 10px;
+}
+.lista-cadastro input[type='text'] {
+  flex: 1;}
 }
